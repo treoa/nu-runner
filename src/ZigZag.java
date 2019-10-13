@@ -9,7 +9,7 @@ public class ZigZag extends State {
         this.duration = duration;
         this.direction = dir.normalize();
     }
-
+//slozhna(
     @Override
     public void step(Entity e) {
         e.position.change(this.direction.scale(speed));
